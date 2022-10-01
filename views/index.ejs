@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" /
+		 easy and free download of youtube videos>
+		<title>Youtube Downloader</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+			integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+			crossorigin="anonymous"
+		/>
+		<style>
+    
+
+.logo-img{
+	height: auto;
+	width: auto;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	color: blue;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+HTML{
+	scroll-behavior: smooth;
+}
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: .5rem;
+}
+
+.navbar-links {
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li:hover {
+    background-color: #555;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+.form-control{
+	border-color:rgb(248, 200, 111) ;
+	box-sizing: border-box;
+	border-width: 6px;
+}
+.form-group{
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: blue;
+	font-size: larger;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=EB+Garamond:ital,wght@0,500;1,800&display=swap');
+
+
+body {
+background: #DFC2F2;
+	background-image: linear-gradient( to right, #ffffb3,#ffe6e6);
+	background-attachment: static;	
+	background-size: cover;
+  }
+
+  img{
+    height: 200px;
+    width: 300px;
+}
+h1 {
+    text-align: center;
+  }
+  
+  .wrapper {
+    text-align: center;
+  }
+  
+  p {
+    text-align: left;
+    margin-top: 20px;
+    border: 1px solid #000;
+    padding: 10px;
+    height: 150px;
+  }
+  
+  .fitness-section {
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    margin-right: -4px;
+    width: 300px;
+  }
+  .container001 p{
+	display: flex;
+	flex-wrap: wrap;
+	text-transform: inherit;
+	text-align: justify;
+  justify-content: center;
+  }
+
+  .container01{
+    border:2px #000;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .container01 form {
+    border-color: #000;
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+  padding: 1em;
+  }
+  .container01 form 
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     border-radius:12px;
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     box-shadow:0 1px 1px rgba(black, 0.1);
+     resize: none;
+  }
+  .hover {
+       box-shadow:(0 1px 1px 1px rgba(#aaa, 0.6)); 
+    }
+  #input-submit {
+     color: white; 
+     background: rgb(4, 204, 184);
+     cursor: pointer;
+    
+  }
+  H6{
+    
+    color: rgb(0, 85, 159);
+  }
+
+  textarea {
+      height: 126px;
+  }
+
+#howtouse{
+  display: flex;
+  border: 7px #000;
+  justify-content: center;
+  justify-items: center;
+  flex-wrap: wrap;
+}
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%; 
+}
+#IMGBOX{
+  background-image: url(/views/myig2.jpg);
+}
+img {
+    height: 298px;
+    width: 608px;
+}
+
+		</style>
+	</head>
+	<body>
+		<header>
+			<nav class="navbar">
+				<div class="brand-title">Ytdownloader</div>
+				<a href="#" class="toggle-button">
+				  <span class="bar"></span>
+				  <span class="bar"></span>
+				  <span class="bar"></span>
+				</a>
+				<div class="navbar-links">
+				  <ul>
+					<li><a href="#howtouse">How to use</a></li>
+					<li><a href="#about-us">About us </a></li>
+					<li><a href="#CONTACTUS">Contact us</a></li>
+				  </ul>
+				</div>
+			  </nav>
+		</header>		
+
+		<div class="container my-5">
+			
+			<h1><strong>Youtube video downloader</strong></h1>
+			<h2>Just paste a link and download</h2>
+			
+			<form method="GET" action='/download' class="my-5">
+				<div class="form-group">
+					<label for="exampleInputEmail1"
+						>Paste here Video Link from Youtube</label
+					>
+					<input
+						type="text"
+						class="form-control"
+						placeholder="Enter Video URL"
+                        name="url"
+					/>
+					
+				</div>
+				<button type="submit" class="btn btn-primary">Download</button>
+			</form>
+		</div>
+		<div data-include="views\download.ejs"></div>
+<H1>How to Download Youtube video online by using link ?</H1>
+<section id="howtouse">
+<div class="wrapper">
+	<div class="fitness-section">
+	  <img src="12flex.png" alt="" class="essential">
+	  <h3>"STEP 1": decide which video you want to download, copy its URL with help of share menu, select copy link option"</h3>
+	</div>
+<div class="fitness-section">
+	  <img src="sec.png" alt="" class="motivation">
+	  <h3>"STEP 2": open Ydownloader and insert video URL into the search box, hit blue button and wait for download links"</h3>
+	</div>
+<div class="fitness-section">
+	  <img src="third.png" alt="" class="shoe">
+	  <h3>"STEP 3": when more info shows up, select format, dimensions and file size you like and download Youtube video "</h3>
+</div>
+
+	</div>
+</section>
+
+<DIV class="IMGBOX"  id="CONTACTUS" style="background-image: url(https://img.freepik.com/premium-vector/woman-with-headphones-microphone-computer-concept-illustration-support-assistance-call-center-contact-us-vector-illustration-cartoon-flat-style_313437-111.jpg?w=996);">
+
+<h1>Get Touch With Us</h1>
+<div class="container01">
+
+<form class="cf" action="https://formsubmit.co/NP91512@email.com" method="POST">
+  <div class="half left cf">
+    <input type="text" id="input-name" placeholder="Name">
+    <input type="email" id="input-email" placeholder="Email address">
+    <input type="text" id="input-subject" placeholder="Subject">
+  </div>
+  <div class="half right cf">
+    <textarea name="message" type="text" id="input-message" placeholder="Message"></textarea>
+  </div>  
+  <input type="submit" value="Submit" id="input-submit">
+</DIV>
+</div>
+</form>
+
+
+
+<section class="about-us py-5 " id="about-us">
+  <div class="container mt-5">
+<div class="row">
+  <div class="col-md-6">
+      <h1 class='text-success'>Welcome!</h1>
+      <h2>Know More About Us</h2>
+      <hr>
+      <H6>Why Ytdownloader is on the internet 
+      internet is the place to people connect in one frame.share imformation with each other.here is imporant tool is name is youtube.which is use for 
+      simplyfly our life thru to share imformation in the video format.
+      in the youtube so many types of videos & music we can enjoy. sometime our useful video we wanna save in our device gallery.& now we come here for 
+      download your file using only copy & paste link. 
+      how to download youtube video free of cost.
+      just copy a link thru to share button 
+      paste your copied link in box 
+      after click download you redireted on the download video imformation than click on download button and select which formet video or audio you 
+      wanna dowload after this you redirted to video or audio play file than click 3 dots than you see download button click it . 
+      now enjoy it </H6>
+
+  </div>
+  <div class="col-md-6">
+      <img src="http://themebubble.com/demo/marketingpro/wp-content/uploads/2016/10/seo-slide.png "alt="">
+  </div>
+</div>
+</div>
+</section>
+	<footer class="bg-light text-center text-lg-start">
+		<!-- Copyright -->
+		<div class="text-center p-3" style="background-color: rgba(100, 84, 84, 0.418);" >
+		  © 2022 Copyright:
+		  <a class="text-dark" href="/" >Ytdownloader</a>
+		</div>
+		<!-- Copyright -->
+	  </footer>
+		<script>
+			const toggleButton = document.getElementsByClassName('toggle-button')[0]
+const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+
+toggleButton.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active')
+})
+			function toggleMobileMenu(menu) {
+		  menu.classList.toggle('open');
+	  }
+		  </script>
+	</body>
+</html>
+
